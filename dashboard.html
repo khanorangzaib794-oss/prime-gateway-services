@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="ur">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Dashboard | Prime Gateway Services</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+
+    <header class="dashboard-header">
+
+        <div class="logo">
+
+            <h2>
+                <i class="fa-solid fa-globe"></i>
+                Prime Gateway Services
+            </h2>
+
+        </div>
+
+        <nav>
+
+            <a href="index.html">Home</a>
+            <a href="services.html">Services</a>
+            <a href="contact.html">Contact</a>
+
+        </nav>
+
+    </header>
+
+    <!-- Dashboard -->
+
+    <main class="dashboard-container">
+
+        <!-- Welcome -->
+
+        <section class="welcome-card">
+
+            <h2>
+                Welcome Back 👋
+            </h2>
+
+            <p>
+                Prime Gateway Services Dashboard میں خوش آمدید۔
+            </p>
+
+        </section>
+
+        <!-- Account Status -->
+
+        <section class="status-card">
+
+            <h3>
+
+                <i class="fa-solid fa-user-shield"></i>
+
+                Account Status
+
+            </h3>
+
+            <p id="accountStatus">
+
+                Loading...
+
+            </p>
+
+        </section>
+
+        <!-- Profile -->
+
+        <section class="profile-card">
+
+            <div class="profile-icon">
+
+                <i class="fa-solid fa-user"></i>
+
+            </div>
+
+            <div class="profile-info">
+
+                <h2 id="userName">
+
+                    Loading...
+
+                </h2>
+
+                <p id="userEmail">
+
+                    Loading...
+
+                </p>
+
+            </div>
+
+        </section>
+
+        <!-- Statistics -->
+
+        <section class="stats-grid">
+
+            <div class="stat-card">
+
+                <i class="fa-solid fa-file-lines"></i>
+
+                <h3 id="totalApplications">0</h3>
+
+                <p>Total Applications</p>
+
+            </div>
+
+            <div class="stat-card">
+
+                <i class="fa-solid fa-hourglass-half"></i>
+
+                <h3 id="pendingApplications">0</h3>
+
+                <p>Pending Applications</p>
+
+            </div>
+
+            <div class="stat-card">
+
+                <i class="fa-solid fa-circle-check"></i>
+
+                <h3 id="approvedApplications">0</h3>
+
+                <p>Approved Applications</p>
+
+            </div>
+
+        </section>
+
+        <!-- Quick Actions -->
+
+        <section class="action-buttons">
+
+            <button
+                class="primary-btn"
+                onclick="window.location.href='apply-visa.html'">
+
+                <i class="fa-solid fa-passport"></i>
+
+                Apply For Visa
+
+            </button>
+
+            <button class="primary-btn">
+
+                <i class="fa-solid fa-file"></i>
+
+                My Applications
+
+            </button>
+                        <button class="primary-btn">
+
+                <i class="fa-solid fa-headset"></i>
+
+                Support
+
+            </button>
+
+            <button id="logoutBtn" class="danger-btn">
+
+                <i class="fa-solid fa-right-from-bracket"></i>
+
+                Logout
+
+            </button>
+
+        </section>
+
+        <!-- Visa Services -->
+
+        <section class="applications-card">
+
+            <h2>
+
+                <i class="fa-solid fa-earth-asia"></i>
+
+                Visa Services
+
+            </h2>
+
+            <div class="stats-grid">
+
+                <div class="stat-card">
+
+                    <i class="fa-solid fa-flag"></i>
+
+                    <p>United Kingdom Visa</p>
+
+                </div>
+
+                <div class="stat-card">
+
+                    <i class="fa-solid fa-flag"></i>
+
+                    <p>Canada Visa</p>
+
+                </div>
+
+                <div class="stat-card">
+
+                    <i class="fa-solid fa-flag"></i>
+
+                    <p>Australia Visa</p>
+
+                </div>
+
+                <div class="stat-card">
+
+                    <i class="fa-solid fa-flag"></i>
+
+                    <p>UAE Visa</p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Recent Applications -->
+
+        <section class="applications-card">
+
+            <h2>
+
+                Recent Applications
+
+            </h2>
+
+            <div id="applicationsList">
+
+                <p>
+
+                    ابھی تک کوئی Visa Application موجود نہیں۔
+
+                </p>
+
+            </div>
+
+        </section>
+                <!-- Dashboard Footer -->
+
+        <section class="applications-card">
+
+            <h2>
+
+                Prime Gateway Services
+
+            </h2>
+
+            <p>
+
+                Prime Gateway Services کے Professional Dashboard میں
+                آپ اپنی Visa Applications، Documents اور Application Status
+                آسانی سے Manage کر سکتے ہیں۔
+
+            </p>
+
+        </section>
+
+    </main>
+
+    <script type="module" src="dashboard.js"></script>
+
+</body>
+
+</html>

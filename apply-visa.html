@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Apply Visa | Prime Gateway Services</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+
+<body>
+
+<header class="dashboard-header">
+
+<div class="logo">
+
+<h2>
+
+<i class="fa-solid fa-globe"></i>
+
+Prime Gateway Services
+
+</h2>
+
+</div>
+
+<nav>
+
+<a href="index.html">Home</a>
+
+<a href="services.html">Services</a>
+
+<a href="dashboard.html">Dashboard</a>
+
+<a href="contact.html">Contact</a>
+
+</nav>
+
+</header>
+
+<div class="dashboard-container">
+
+<div class="applications-card">
+
+<h1 style="text-align:center;color:#0d6efd;">
+
+<i class="fa-solid fa-passport"></i>
+
+Visa Application Form
+
+</h1>
+
+<p style="text-align:center;">
+
+براہ کرم تمام معلومات درست درج کریں۔
+
+</p>
+
+<form id="visaForm">
+
+<div class="form-group">
+
+<label>Full Name</label>
+
+<input
+type="text"
+id="fullName"
+placeholder="Enter Full Name"
+required>
+
+</div>
+
+<div class="form-group">
+
+<label>Father Name</label>
+
+<input
+type="text"
+id="fatherName"
+placeholder="Enter Father Name"
+required>
+
+</div>
+
+<div class="form-group">
+
+<label>Email Address</label>
+
+<input
+type="email"
+id="email"
+placeholder="Enter Email"
+required>
+
+</div>
+
+<div class="form-group">
+
+<label>Mobile Number</label>
+
+<input
+type="tel"
+id="phone"
+placeholder="03XXXXXXXXX"
+required>
+
+</div>
+
+<div class="form-group">
+
+<label>WhatsApp Number</label>
+
+<input
+type="tel"
+id="whatsapp"
+placeholder="03XXXXXXXXX"
+required>
+
+</div>
+
+<div class="form-group">
+
+<label>CNIC Number</label>
+
+<input
+type="text"
+id="cnic"
+placeholder="35202-1234567-1"
+required>
+
+</div>
+<div class="form-group">
+
+<label>Date of Birth</label>
+
+<input
+type="date"
+id="dob"
+required>
+
+</div>
+
+<div class="form-group">
+
+<label>Gender</label>
+
+<select id="gender" required>
+
+<option value="">Select Gender</option>
+
+<option>Male</option>
+
+<option>Female</option>
+
+<option>Other</option>
+
+</select>
+
+</div>
+
+<div class="form-group">
+
+<label>Nationality</label>
+
+<input
+type="text"
+id="nationality"
+placeholder="Pakistani"
+required>
+
+</div>
+
+<div class="form-group">
+
+<label>Passport Number</label>
+
+<input
+type="text"
+id="passport"
+placeholder="AB1234567"
+required>
+
+</div>
+
+<div class="form-group">
+
+<label>Passport Issue Date</label>
+
+<input
+type="date"
+id="passportIssue"
+required>
+
+</div>
+
+<div class="form-group">
+
+<label>Passport Expiry Date</label>
+
+<input
+type="date"
+id="passportExpiry"
+required>
+
+</div>
+
+<div class="form-group">
+
+<label>Marital Status</label>
+
+<select id="maritalStatus" required>
+
+<option value="">Select Status</option>
+
+<option>Single</option>
+
+<option>Married</option>
+
+<option>Divorced</option>
+
+<option>Widowed</option>
+
+</select>
+
+</div>
+
+<div class="form-group">
+
+<label>Occupation</label>
+
+<input
+type="text"
+id="occupation"
+placeholder="Software Engineer"
+required>
+
+</div>
+
+<div class="form-group">
+
+<label>Monthly Income</label>
+
+<input
+type="number"
+id="income"
+placeholder="Monthly Income"
+required>
+
+</div>
+
+<div class="form-group">
+
+<label>Current Address</label>
+
+<textarea
+id="address"
+rows="4"
+placeholder="Enter Complete Address"
+required></textarea>
+
+</div>
+
+<div class="form-group">
+
+<label>City</label>
+
+<input
+type="text"
+id="city"
+placeholder="Enter City"
+required>
+
+</div>
+<div class="form-group">
+
+<label>🌍 Destination Country</label>
+
+<select id="country" required>
+
+<option value="">Select Destination Country</option>
+
+<optgroup label="Europe">
+<option>United Kingdom</option>
+<option>Germany</option>
+<option>France</option>
+<option>Italy</option>
+<option>Spain</option>
+<option>Portugal</option>
+<option>Netherlands</option>
+<option>Belgium</option>
+<option>Switzerland</option>
+<option>Austria</option>
+<option>Sweden</option>
+<option>Norway</option>
+<option>Denmark</option>
+<option>Finland</option>
+<option>Ireland</option>
+<option>Poland</option>
+<option>Romania</option>
+<option>Croatia</option>
+<option>Greece</option>
+<option>Hungary</option>
+<option>Czech Republic</option>
+<option>Slovakia</option>
+<option>Slovenia</option>
+<option>Bulgaria</option>
+<option>Serbia</option>
+<option>Malta</option>
+<option>Cyprus</option>
+<option>Luxembourg</option>
+</optgroup>
+
+<optgroup label="North America">
+<option>Canada</option>
+<option>United States</option>
+<option>Mexico</option>
+</optgroup>
+
+<optgroup label="Asia">
+<option>United Arab Emirates</option>
+<option>Saudi Arabia</option>
+<option>Qatar</option>
+<option>Kuwait</option>
+<option>Oman</option>
+<option>Bahrain</option>
+<option>Turkey</option>
+<option>Malaysia</option>
+<option>Singapore</option>
+<option>Thailand</option>
+<option>Japan</option>
+<option>South Korea</option>
+<option>China</option>
+<option>Pakistan</option>
+<option>India</option>
+</optgroup>
+
+<optgroup label="Africa">
+<option>South Africa</option>
+<option>Egypt</option>
+<option>Morocco</option>
+<option>Kenya</option>
+<option>Nigeria</option>
+</optgroup>
+
+<optgroup label="Oceania">
+<option>Australia</option>
+<option>New Zealand</option>
+</optgroup>
+
+<optgroup label="South America">
+<option>Brazil</option>
+<option>Argentina</option>
+<option>Chile</option>
+<option>Colombia</option>
+<option>Peru</option>
+</optgroup>
+
+</select>
+
+</div>
+
+<div class="form-group">
+
+<label>📄 Visa Type</label>
+
+<select id="visaType" required>
+
+<option value="">Select Visa Type</option>
+
+<option>Visit Visa</option>
+<option>Tourist Visa</option>
+<option>Work Visa</option>
+<option>Student Visa</option>
+<option>Business Visa</option>
+<option>Family Visa</option>
+<option>Medical Visa</option>
+<option>Transit Visa</option>
+<option>Conference Visa</option>
+<option>Permanent Residence</option>
+
+</select>
+
+</div>
+
+<div class="form-group">
+
+<label>✈ Travel Date</label>
+
+<input
+type="date"
+id="travelDate"
+required>
+
+</div>
+
+<div class="form-group">
+
+<label>🛬 Return Date</label>
+
+<input
+type="date"
+id="returnDate">
+
+</div>
+
+<div class="form-group">
+
+<label>📝 Additional Notes</label>
+
+<textarea
+id="notes"
+rows="5"
+placeholder="Write any additional information here..."></textarea>
+
+</div>
+<div class="form-group">
+
+<label>🛂 Passport Scan (PDF / JPG / PNG)</label>
+
+<input
+type="file"
+id="passportFile"
+accept=".pdf,.jpg,.jpeg,.png"
+required>
+
+</div>
+
+<div class="form-group">
+
+<label>🪪 CNIC Front</label>
+
+<input
+type="file"
+id="cnicFront"
+accept=".jpg,.jpeg,.png,.pdf"
+required>
+
+</div>
+
+<div class="form-group">
+
+<label>🪪 CNIC Back</label>
+
+<input
+type="file"
+id="cnicBack"
+accept=".jpg,.jpeg,.png,.pdf"
+required>
+
+</div>
+
+<div class="form-group">
+
+<label>📷 Passport Size Photograph</label>
+
+<input
+type="file"
+id="photo"
+accept=".jpg,.jpeg,.png"
+required>
+
+</div>
+
+<div class="form-group">
+
+<label>🏦 Bank Statement</label>
+
+<input
+type="file"
+id="bankStatement"
+accept=".pdf,.jpg,.jpeg,.png">
+
+</div>
+
+<div class="form-group">
+
+<label>💼 Salary Slip / Job Letter</label>
+
+<input
+type="file"
+id="jobLetter"
+accept=".pdf,.jpg,.jpeg,.png">
+
+</div>
+
+<div class="form-group">
+
+<label>📄 Other Supporting Documents</label>
+
+<input
+type="file"
+id="otherDocuments"
+multiple
+accept=".pdf,.jpg,.jpeg,.png,.doc,.docx">
+
+</div>
+
+<div class="form-group">
+
+<label>
+
+<input
+type="checkbox"
+id="agree"
+required>
+
+میں تصدیق کرتا ہوں کہ اوپر دی گئی تمام معلومات درست
+  <!-- Footer -->
+
+<footer class="applications-card" style="margin-top:30px;text-align:center;">
+
+<h2>
+<i class="fa-solid fa-globe"></i>
+Prime Gateway Services
+</h2>
+
+<p>
+Professional Visa Consultancy Portal
+</p>
+
+<p>
+Visit Visa | Work Visa | Student Visa | Immigration Services
+</p>
+
+<p>
+© 2026 Prime Gateway Services. All Rights Reserved.
+</p>
+
+</footer>
+
+<script type="module" src="apply-visa.js"></script>
+
+</body>
+
+</html>
